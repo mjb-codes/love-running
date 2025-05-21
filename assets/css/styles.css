@@ -1,11 +1,14 @@
+/* Header */
 header {
     background-color: teal;
 }
 
+/* Main content */
 main {
     background-color: burlywood;
 }
 
+/* Footer */
 footer {
     background-color: tomato;
 }
