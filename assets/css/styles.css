@@ -24,6 +24,10 @@ header {
     background-color: teal;
 }
 
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+
 /* Main content */
 main {
     background-color: burlywood;
