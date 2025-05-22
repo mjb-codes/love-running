@@ -211,6 +211,14 @@ hr {
 #photos {
     line-height: 0;
 }
+/* Media query - Large and landscape phones (576px and above) */
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* Media query - Tablets and larger (768px and above) */
 
@@ -271,6 +279,10 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Media query - Laptops 992px and above */
@@ -278,6 +290,10 @@ hr {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: solid 1px #3a3a3a
+    }
+
+    #photos {
+        column-count: 4;
     }
 }
 
