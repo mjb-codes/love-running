@@ -133,5 +133,12 @@ footer {
         /* push main content beneath header */
         margin-top: 82px;
     }
-    
+}
+
+/* styles for screens 992px and above */
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: solid 1px #3a3a3a
+    }
 }
