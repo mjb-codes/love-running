@@ -211,6 +211,58 @@ hr {
 #photos {
     line-height: 0;
 }
+
+/* Signup page */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    background-image: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    color: #fff;
+    background-color: rgba(60,60,60,.6);
+    padding: 30px;
+}
+
+.text-input {
+    background-color: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    height: 25px;
+    width: 100%;
+    padding: 0 5px;
+    margin: 5px 0 25px 0;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    padding: 15px 32px;
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+}
+
 /* Media query - Large and landscape phones (576px and above) */
 
 @media screen and (min-width: 576px) {
@@ -282,6 +334,28 @@ hr {
 
     #photos {
         column-count: 3;
+    }
+
+    /* Signup page */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        max-width: 400px;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
     }
 }
 
